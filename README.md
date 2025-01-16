@@ -2,5 +2,5 @@ Unity'de Factory Pattern'i, oyun nesnelerinin (GameObject) veya bileşenlerin ol
 
 ![Movie_003-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/04e4397a-c118-4fa0-8796-5405d63aabba)
 
-Projede basit bir şekilde örneklendirilmiştir. Mouse sol tık ile Factroy pattern yapısı ile sırası işe sphere veya capsule yaratır
-. Mouse sağ tık ile ilk yaratılandan silmeye başlar.
+Projede basit bir şekilde örneklendirilmiştir. Mouse sol tık ile Factroy pattern yapısı kullanarak sırası ile sphere veya capsule yaratır.
+Mouse sağ tık ile ilk yaratılandan silmeye başlar.
