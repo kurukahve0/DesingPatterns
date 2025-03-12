@@ -1,4 +1,4 @@
--Factory Pattern Nedir?
+----Factory Pattern Nedir?
 
 Unity'de Factory Pattern'i, oyun nesnelerinin (GameObject) veya bileşenlerin oluşturulmasını merkezi bir yerden yönetmek için kullanılan yaygın bir Design Patterndir. 
 
@@ -8,7 +8,9 @@ Projede basit bir şekilde örneklendirilmiştir. Mouse sol tık ile Factroy pat
 Mouse sağ tık ile ilk yaratılandan silmeye başlar.
 
 
-Command Pattern Nedir?
+
+
+----Command Pattern Nedir?
 
 Command Pattern, bir işlemi (örneğin bir butona basmak veya bir menü seçeneğini çalıştırmak) bir nesne olarak temsil eder. Bu sayede:
 
