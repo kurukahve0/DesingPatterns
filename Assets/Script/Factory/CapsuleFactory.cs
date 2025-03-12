@@ -11,7 +11,7 @@ namespace FactoryPattern
         {
             var shape = Instantiate(capsuleProduct, parent);
             shape.InitializeShape(index);
-            return shape ;
+            return shape;
         }
     }
 }
