@@ -71,7 +71,7 @@ namespace State
 
         public bool IsGrounded()
         {
-            return isGrounded;
+            return isGrounded    && rb.velocity.y < .1f;
         }
 
 

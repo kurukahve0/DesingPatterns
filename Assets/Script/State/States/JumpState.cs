@@ -18,7 +18,7 @@ namespace State
         public override void Update()
         {
             if (playerController.IsGrounded() && !playerController.IsJumping()
-                                              && playerController.PlayerRigidbody.velocity.y < .1f)
+                                           )
             {
                 if (playerController.IsMoving())
                 {
