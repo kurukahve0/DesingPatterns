@@ -24,3 +24,18 @@ https://github.com/user-attachments/assets/802bbdf5-7216-4d5f-8f2f-7de09145cd5f
 
 Projede bir top farklı yönlerde buttonlar vasıtası ile hareket etmektedir ayrıca undo ve redo işlemleri buttonlar aracılığıyla çalışmaktadır.
 Command patternin basit bir örneği
+
+
+----State Pattern Nedir?
+State Pattern, bir nesnenin iç durumuna göre davranışını değiştirmesini sağlayan bir desing patterndir. Bu desen, "bir nesnenin durumu değiştiğinde davranışının da otomatik olarak değişmesini" hedefler.
+Örneğin, bir karakterin oyun içinde "yürürken", "koşarken", "zıplarken" veya "beklerken" farklı davranışlar sergilemesi gibi senaryolarda kullanılabilir.
+
+State Pattern'in temel fikri, her durumu ayrı bir sınıf olarak tanımlamak ve bu sınıfların ortak bir arayüz üzerinden iletişim kurmasını sağlamaktır.
+Böylece, bir nesne durum değiştirdiğinde, ilgili durum sınıfı devreye girer ve gerekli işlemleri gerçekleştirir.
+
+
+
+https://github.com/user-attachments/assets/efe277df-4df0-48da-80b2-d6b545fa039d
+
+Projede yapılabilecek eylemler statelere ayrılmıştır ve eylermeri stateler yönetmektedir.
+
